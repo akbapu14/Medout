@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410BD39B1BAE260300EB31DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BD39A1BAE260300EB31DC /* AppDelegate.swift */; };
+		410BD39D1BAE260300EB31DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BD39C1BAE260300EB31DC /* ViewController.swift */; };
+		410BD3A01BAE260300EB31DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410BD39E1BAE260300EB31DC /* Main.storyboard */; };
+		410BD3A21BAE260300EB31DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410BD3A11BAE260300EB31DC /* Assets.xcassets */; };
+		410BD3A51BAE260300EB31DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410BD3A31BAE260300EB31DC /* LaunchScreen.storyboard */; };
+		410BD3B01BAE260300EB31DC /* MedoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BD3AF1BAE260300EB31DC /* MedoutTests.swift */; };
+		410BD3BB1BAE260300EB31DC /* MedoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BD3BA1BAE260300EB31DC /* MedoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410BD3AC1BAE260300EB31DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410BD38F1BAE260300EB31DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410BD3961BAE260300EB31DC;
+			remoteInfo = Medout;
+		};
+		410BD3B71BAE260300EB31DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410BD38F1BAE260300EB31DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410BD3961BAE260300EB31DC;
+			remoteInfo = Medout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410BD3971BAE260300EB31DC /* Medout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410BD39A1BAE260300EB31DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410BD39C1BAE260300EB31DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		410BD39F1BAE260300EB31DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410BD3A11BAE260300EB31DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410BD3A41BAE260300EB31DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410BD3A61BAE260300EB31DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410BD3AB1BAE260300EB31DC /* MedoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410BD3AF1BAE260300EB31DC /* MedoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedoutTests.swift; sourceTree = "<group>"; };
+		410BD3B11BAE260300EB31DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410BD3B61BAE260300EB31DC /* MedoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410BD3BA1BAE260300EB31DC /* MedoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedoutUITests.swift; sourceTree = "<group>"; };
+		410BD3BC1BAE260300EB31DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410BD3941BAE260300EB31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410BD3A81BAE260300EB31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410BD3B31BAE260300EB31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410BD38E1BAE260300EB31DC = {
+			isa = PBXGroup;
+			children = (
+				410BD3991BAE260300EB31DC /* Medout */,
+				410BD3AE1BAE260300EB31DC /* MedoutTests */,
+				410BD3B91BAE260300EB31DC /* MedoutUITests */,
+				410BD3981BAE260300EB31DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410BD3981BAE260300EB31DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410BD3971BAE260300EB31DC /* Medout.app */,
+				410BD3AB1BAE260300EB31DC /* MedoutTests.xctest */,
+				410BD3B61BAE260300EB31DC /* MedoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410BD3991BAE260300EB31DC /* Medout */ = {
+			isa = PBXGroup;
+			children = (
+				410BD39A1BAE260300EB31DC /* AppDelegate.swift */,
+				410BD39C1BAE260300EB31DC /* ViewController.swift */,
+				410BD39E1BAE260300EB31DC /* Main.storyboard */,
+				410BD3A11BAE260300EB31DC /* Assets.xcassets */,
+				410BD3A31BAE260300EB31DC /* LaunchScreen.storyboard */,
+				410BD3A61BAE260300EB31DC /* Info.plist */,
+			);
+			path = Medout;
+			sourceTree = "<group>";
+		};
+		410BD3AE1BAE260300EB31DC /* MedoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				410BD3AF1BAE260300EB31DC /* MedoutTests.swift */,
+				410BD3B11BAE260300EB31DC /* Info.plist */,
+			);
+			path = MedoutTests;
+			sourceTree = "<group>";
+		};
+		410BD3B91BAE260300EB31DC /* MedoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410BD3BA1BAE260300EB31DC /* MedoutUITests.swift */,
+				410BD3BC1BAE260300EB31DC /* Info.plist */,
+			);
+			path = MedoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410BD3961BAE260300EB31DC /* Medout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410BD3BF1BAE260300EB31DC /* Build configuration list for PBXNativeTarget "Medout" */;
+			buildPhases = (
+				410BD3931BAE260300EB31DC /* Sources */,
+				410BD3941BAE260300EB31DC /* Frameworks */,
+				410BD3951BAE260300EB31DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medout;
+			productName = Medout;
+			productReference = 410BD3971BAE260300EB31DC /* Medout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410BD3AA1BAE260300EB31DC /* MedoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410BD3C21BAE260300EB31DC /* Build configuration list for PBXNativeTarget "MedoutTests" */;
+			buildPhases = (
+				410BD3A71BAE260300EB31DC /* Sources */,
+				410BD3A81BAE260300EB31DC /* Frameworks */,
+				410BD3A91BAE260300EB31DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410BD3AD1BAE260300EB31DC /* PBXTargetDependency */,
+			);
+			name = MedoutTests;
+			productName = MedoutTests;
+			productReference = 410BD3AB1BAE260300EB31DC /* MedoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410BD3B51BAE260300EB31DC /* MedoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410BD3C51BAE260300EB31DC /* Build configuration list for PBXNativeTarget "MedoutUITests" */;
+			buildPhases = (
+				410BD3B21BAE260300EB31DC /* Sources */,
+				410BD3B31BAE260300EB31DC /* Frameworks */,
+				410BD3B41BAE260300EB31DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410BD3B81BAE260300EB31DC /* PBXTargetDependency */,
+			);
+			name = MedoutUITests;
+			productName = MedoutUITests;
+			productReference = 410BD3B61BAE260300EB31DC /* MedoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410BD38F1BAE260300EB31DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Disrupt;
+				TargetAttributes = {
+					410BD3961BAE260300EB31DC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 798AZH6TJR;
+					};
+					410BD3AA1BAE260300EB31DC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 798AZH6TJR;
+						TestTargetID = 410BD3961BAE260300EB31DC;
+					};
+					410BD3B51BAE260300EB31DC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 798AZH6TJR;
+						TestTargetID = 410BD3961BAE260300EB31DC;
+					};
+				};
+			};
+			buildConfigurationList = 410BD3921BAE260300EB31DC /* Build configuration list for PBXProject "Medout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410BD38E1BAE260300EB31DC;
+			productRefGroup = 410BD3981BAE260300EB31DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410BD3961BAE260300EB31DC /* Medout */,
+				410BD3AA1BAE260300EB31DC /* MedoutTests */,
+				410BD3B51BAE260300EB31DC /* MedoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410BD3951BAE260300EB31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410BD3A51BAE260300EB31DC /* LaunchScreen.storyboard in Resources */,
+				410BD3A21BAE260300EB31DC /* Assets.xcassets in Resources */,
+				410BD3A01BAE260300EB31DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410BD3A91BAE260300EB31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410BD3B41BAE260300EB31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410BD3931BAE260300EB31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410BD39D1BAE260300EB31DC /* ViewController.swift in Sources */,
+				410BD39B1BAE260300EB31DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410BD3A71BAE260300EB31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410BD3B01BAE260300EB31DC /* MedoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410BD3B21BAE260300EB31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410BD3BB1BAE260300EB31DC /* MedoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410BD3AD1BAE260300EB31DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410BD3961BAE260300EB31DC /* Medout */;
+			targetProxy = 410BD3AC1BAE260300EB31DC /* PBXContainerItemProxy */;
+		};
+		410BD3B81BAE260300EB31DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410BD3961BAE260300EB31DC /* Medout */;
+			targetProxy = 410BD3B71BAE260300EB31DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		410BD39E1BAE260300EB31DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410BD39F1BAE260300EB31DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410BD3A31BAE260300EB31DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410BD3A41BAE260300EB31DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410BD3BD1BAE260300EB31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410BD3BE1BAE260300EB31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410BD3C01BAE260300EB31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Medout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.Medout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		410BD3C11BAE260300EB31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Medout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.Medout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		410BD3C31BAE260300EB31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MedoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medout.app/Medout";
+			};
+			name = Debug;
+		};
+		410BD3C41BAE260300EB31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MedoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medout.app/Medout";
+			};
+			name = Release;
+		};
+		410BD3C61BAE260300EB31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MedoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Medout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		410BD3C71BAE260300EB31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.MedoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Medout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410BD3921BAE260300EB31DC /* Build configuration list for PBXProject "Medout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410BD3BD1BAE260300EB31DC /* Debug */,
+				410BD3BE1BAE260300EB31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410BD3BF1BAE260300EB31DC /* Build configuration list for PBXNativeTarget "Medout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410BD3C01BAE260300EB31DC /* Debug */,
+				410BD3C11BAE260300EB31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		410BD3C21BAE260300EB31DC /* Build configuration list for PBXNativeTarget "MedoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410BD3C31BAE260300EB31DC /* Debug */,
+				410BD3C41BAE260300EB31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		410BD3C51BAE260300EB31DC /* Build configuration list for PBXNativeTarget "MedoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410BD3C61BAE260300EB31DC /* Debug */,
+				410BD3C71BAE260300EB31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410BD38F1BAE260300EB31DC /* Project object */;
+}
